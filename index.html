@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>LichtBildSchweiz</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top px-0">
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-light navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand ms-3">
+                        <h1 class="text-primary display-5">LichtBildSchweiz</h1>
+                    </a>
+                    <button
+                        class="navbar-toggler py-2 px-3 me-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse bg-light"
+                        id="navbarCollapse"
+                    >
+                        <div class="navbar-nav ms-auto">
+                            <a
+                                href="index.html"
+                                class="nav-item nav-link active"
+                                >Startseite</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >Über uns</a
+                            >
+                            <a href="price.html" class="nav-item nav-link"
+                                >Preise</a
+                            >
+
+                            <div class="nav-item dropdown">
+                                <a
+                                    href="#"
+                                    class="nav-link dropdown-toggle"
+                                    data-bs-toggle="dropdown"
+                                    >Seiten</a
+                                >
+                                <div
+                                    class="dropdown-menu m-0 bg-secondary rounded-0"
+                                >
+                                    <a
+                                        href="work-with-stars.html"
+                                        class="dropdown-item"
+                                        >Arbeit mit Stars</a
+                                    >
+                                    <a
+                                        href="photo-editing.html"
+                                        class="dropdown-item"
+                                        >Fotobearbeitung</a
+                                    >
+                                </div>
+                            </div>
+                            <a href="passport.html" class="nav-item nav-link"
+                                >Passfotos</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid carousel-header vh-100 px-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img
+                            src="img/carousel-1.jpg"
+                            class="img-fluid"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase fw-bold mb-4"
+                                    style="letter-spacing: 3px"
+                                >
+                                    Professionelle Fotografie, die Geschichten
+                                    erzählt
+                                </h4>
+                                <h1
+                                    class="display-1 text-capitalize text-white mb-4"
+                                >
+                                    Entdecken Sie die Schönheit der Schweiz
+                                    durch unsere Linse
+                                </h1>
+                                <p class="mb-5 fs-5">
+                                    Tauchen Sie ein in die atemberaubende
+                                    Landschaft der Schweiz mit unseren
+                                    professionellen Fotografiediensten. Wir
+                                    erfassen nicht nur Bilder, sondern erzählen
+                                    Geschichten durch jede Linse.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="img/carousel-2.jpg"
+                            class="img-fluid"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase fw-bold mb-4"
+                                    style="letter-spacing: 3px"
+                                >
+                                    Erleben Sie die Schweiz durch die Augen
+                                    eines Fotografen
+                                </h4>
+                                <h1
+                                    class="display-1 text-capitalize text-white mb-4"
+                                >
+                                    Unvergessliche Momente: Fotografie in der
+                                    Schweiz
+                                </h1>
+                                <p class="mb-5 fs-5">
+                                    Entdecken Sie die Magie der Schweiz durch
+                                    die künstlerischen Augen unseres
+                                    Fotografenteams. Jedes Bild erzählt eine
+                                    Geschichte, jeder Moment wird für immer
+                                    festgehalten.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="img/carousel-3.jpg"
+                            class="img-fluid"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase fw-bold mb-4"
+                                    style="letter-spacing: 3px"
+                                >
+                                    Einzigartige Perspektiven und unvergessliche
+                                    Erinnerungen
+                                </h4>
+                                <h1
+                                    class="display-1 text-capitalize text-white mb-4"
+                                >
+                                    Ihre Traumfotos in der Schweiz: Ein Blick
+                                    durch unsere Linse
+                                </h1>
+                                <p class="mb-5 fs-5">
+                                    Lassen Sie sich von der Schönheit der
+                                    Schweiz inspirieren und halten Sie Ihre
+                                    Erinnerungen in Bildern fest. Unsere
+                                    Fotografen erfassen jeden Moment, damit Sie
+                                    ihn für immer genießen können.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselId"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselId"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Services Start -->
+        <div class="container-fluid service py-5 bg-light">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px">
+                    <h5 class="text-uppercase text-primary">Was wir tun</h5>
+                    <h1 class="mb-0">
+                        Professionelle Fotografie in der Schweiz
+                    </h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="service-item">
+                            <img
+                                src="img/service-1.jpg"
+                                class="img-fluid w-100"
+                                alt="Image"
+                            />
+                            <div class="service-link">
+                                <a href="#" class="h4 mb-0"
+                                    >Maßgeschneiderte Fotoshootings</a
+                                >
+                            </div>
+                        </div>
+                        <p class="my-4">
+                            Genießen Sie maßgeschneiderte Fotoshootings, die
+                            Ihre Persönlichkeit und den Charme der Schweiz
+                            einfangen. Wir setzen Ihre Ideen um und schaffen
+                            bleibende Erinnerungen.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="service-item">
+                            <img
+                                src="img/service-2.jpg"
+                                class="img-fluid w-100"
+                                alt="Image"
+                            />
+                            <div class="service-link">
+                                <a href="#" class="h4 mb-0">
+                                    Landschaftsfotografie</a
+                                >
+                            </div>
+                        </div>
+                        <p class="my-4">
+                            Erfassen Sie die atemberaubende Schönheit der
+                            Schweizer Landschaften mit unseren
+                            Landschaftsfotografen. Jedes Bild ist eine Hommage
+                            an die Natur und ihre Vielfalt.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="service-item">
+                            <img
+                                src="img/service-3.jpg"
+                                class="img-fluid w-100"
+                                alt="Image"
+                            />
+                            <div class="service-link">
+                                <a href="#" class="h4 mb-0">Eventfotografie</a>
+                            </div>
+                        </div>
+                        <p class="my-4">
+                            Vom Familientreffen bis zur Firmenveranstaltung -
+                            wir dokumentieren Ihre besonderen Momente in der
+                            Schweiz mit Leidenschaft und Professionalität. Jedes
+                            Detail wird festgehalten.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="service-item">
+                            <img
+                                src="img/service-4.jpg"
+                                class="img-fluid w-100"
+                                alt="Image"
+                            />
+                            <div class="service-link">
+                                <a href="#" class="h4 mb-0"
+                                    >Porträtfotografie</a
+                                >
+                            </div>
+                        </div>
+                        <p class="my-4">
+                            Erhalten Sie einzigartige Porträts, die Ihre
+                            Persönlichkeit zum Ausdruck bringen. Unsere
+                            Porträtfotografen in der Schweiz schaffen Bilder,
+                            die eine Geschichte erzählen und Emotionen
+                            einfangen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5 mb-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px">
+                    <h5 class="text-uppercase text-primary">
+                        Aktuelle Nachrichten
+                    </h5>
+                    <h1 class="mb-0">Neuigkeiten und Updates von uns</h1>
+                    <p>
+                        Bleiben Sie auf dem Laufenden mit den neuesten
+                        Nachrichten und Updates aus unserer Welt der Fotografie.
+                        Hier finden Sie Informationen zu unseren jüngsten
+                        Projekten, Veranstaltungen, Auszeichnungen und vielem
+                        mehr.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-1.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Dec
+                                        01.2023</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3">
+                                            12 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a href="#" class="text-white"
+                                            >0 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-1.jpg"
+                                        data-lightbox="Blog-1"
+                                        class="my-auto"
+                                        ><i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i
+                                    ></a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">Neue Ausstellung in Zürich</h4>
+                                <p class="mb-4">
+                                    Wir freuen uns, unsere neueste
+                                    Fotoausstellung in Zürich anzukündigen.
+                                    Besuchen Sie uns und entdecken Sie eine
+                                    Sammlung beeindruckender Bilder aus der
+                                    ganzen Schweiz.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-2.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Sep
+                                        01.2021</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3">
+                                            123 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a href="#" class="text-white"
+                                            >10 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-2.jpg"
+                                        data-lightbox="Blog-2"
+                                        class="my-auto"
+                                        ><i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i
+                                    ></a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">Anerkennung unserer Arbeit</h4>
+                                <p class="mb-4">
+                                    Wir sind stolz darauf, eine renommierte
+                                    Auszeichnung für unsere außergewöhnliche
+                                    Fotografie erhalten zu haben. Diese
+                                    Anerkennung motiviert uns, weiterhin
+                                    exzellente Arbeit zu leisten.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-3.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Mai
+                                        01.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3">
+                                            23 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a href="#" class="text-white"
+                                            >12 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-3.jpg"
+                                        data-lightbox="Blog-3"
+                                        class="my-auto"
+                                        ><i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i
+                                    ></a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">
+                                    Workshop für angehende Fotografen
+                                </h4>
+                                <p class="mb-4">
+                                    Nehmen Sie an unserem nächsten Workshop teil
+                                    und lernen Sie die Geheimnisse der
+                                    professionellen Fotografie kennen. Melden
+                                    Sie sich jetzt an und verbessern Sie Ihre
+                                    Fähigkeiten.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-4.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Oct
+                                        01.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3">
+                                            13 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a href="#" class="text-white"
+                                            >0 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-4.jpg"
+                                        data-lightbox="Blog-4"
+                                        class="my-auto"
+                                        ><i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i
+                                    ></a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">
+                                    Veröffentlichung im internationalen Magazin
+                                </h4>
+                                <p class="mb-4">
+                                    Wir sind begeistert, dass unsere Fotos in
+                                    einem internationalen Magazin veröffentlicht
+                                    wurden. Dies ist ein bedeutender Meilenstein
+                                    und zeigt die Qualität und Kreativität
+                                    unserer Arbeit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Volunteers Start -->
+        <div class="container-fluid volunteer py-5 mt-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img
+                                        src="img/volunteers-1.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">
+                                            Anna Müller
+                                        </h5>
+                                        <p class="mb-0 text-white">
+                                            Leitende Fotografin
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img
+                                        src="img/volunteers-3.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">
+                                            Stefan Meier
+                                        </h5>
+                                        <p class="mb-0 text-white">
+                                            Landschaftsfotograf
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img
+                                        src="img/volunteers-2.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">
+                                            Julia Schmidt
+                                        </h5>
+                                        <p class="mb-0 text-white">
+                                            Eventfotografin
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img
+                                        src="img/volunteers-4.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">
+                                            Michael Wagner
+                                        </h5>
+                                        <p class="mb-0 text-white">
+                                            Porträtfotograf
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h5 class="text-uppercase text-primary">Unser Team</h5>
+                        <h1 class="mb-4">
+                            Hinter jeder großartigen Aufnahme steht ein
+                            talentiertes Team
+                        </h1>
+                        <p class="mb-4">
+                            Erfahren Sie mehr über die kreativen Köpfe, die
+                            hinter unserer Arbeit stehen. Unser Team vereint
+                            Leidenschaft für Fotografie mit tiefem Verständnis
+                            für die Schweizer Landschaft und Kultur. Jedes
+                            Mitglied bringt einzigartige Fähigkeiten und
+                            Erfahrungen ein, um unvergessliche Bilder zu
+                            schaffen.
+                        </p>
+                        <p class="text-dark">
+                            <i class="fa fa-check text-primary me-2"></i>
+                            Kreativität und Innovation
+                        </p>
+                        <p class="text-dark">
+                            <i class="fa fa-check text-primary me-2"></i>
+                            Technisches Know-how
+                        </p>
+                        <p class="text-dark">
+                            <i class="fa fa-check text-primary me-2"></i>
+                            Verständnis für Licht und Komposition
+                        </p>
+                        <p class="text-dark">
+                            <i class="fa fa-check text-primary me-2"></i>
+                            Kundenorientierung
+                        </p>
+                        <p class="text-dark mb-5">
+                            <i class="fa fa-check text-primary me-2"></i>
+                            Flexibilität und Anpassungsfähigkeit
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Volunteers End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid bg-light py-5">
+            <div class="container py-5">
+                <div class="contact p-5">
+                    <div class="row g-4">
+                        <div class="col-xl-5">
+                            <h1 class="mb-4">Kontaktieren Sie uns</h1>
+                            <form>
+                                <div class="row gx-4 gy-3">
+                                    <div class="col-xl-6">
+                                        <input
+                                            type="text"
+                                            class="form-control bg-white border-0 py-3 px-4"
+                                            placeholder="Ihr Vorname"
+                                        />
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input
+                                            type="email"
+                                            class="form-control bg-white border-0 py-3 px-4"
+                                            placeholder="Ihre E-Mail-Adresse"
+                                            id="email"
+                                        />
+                                        <div
+                                            id="result"
+                                            style="color: red"
+                                        ></div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input
+                                            type="text"
+                                            class="form-control bg-white border-0 py-3 px-4"
+                                            placeholder="Ihre Telefonnummer"
+                                        />
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input
+                                            type="text"
+                                            class="form-control bg-white border-0 py-3 px-4"
+                                            placeholder="Betreff"
+                                        />
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea
+                                            class="form-control bg-white border-0 py-3 px-4"
+                                            rows="7"
+                                            cols="10"
+                                            placeholder="Ihre Nachricht"
+                                        ></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                            type="submit"
+                                            id="submit"
+                                            onclick="sendForm()"
+                                        >
+                                            Absenden
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xl-7">
+                            <div>
+                                <div class="row g-4">
+                                    <div class="col-lg-4">
+                                        <div class="bg-white p-4">
+                                            <i
+                                                class="fas fa-map-marker-alt fa-2x text-primary mb-2"
+                                            ></i>
+                                            <h4>Adresse</h4>
+                                            <p
+                                                class="mb-0"
+                                                style="
+                                                    white-space: nowrap;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                "
+                                            >
+                                                Engehaldenstrasse 128, 3012
+                                                Bern, Schweiz
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="bg-white p-4">
+                                            <i
+                                                class="fas fa-envelope fa-2x text-primary mb-2"
+                                            ></i>
+                                            <h4>Schreiben Sie uns</h4>
+                                            <p
+                                                class="mb-0"
+                                                style="
+                                                    white-space: nowrap;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                "
+                                            >
+                                                licht_bild_schweiz@gmail.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="bg-white p-4">
+                                            <i
+                                                class="fa fa-phone-alt fa-2x text-primary mb-2"
+                                            ></i>
+                                            <h4>Telefon</h4>
+                                            <p class="mb-0">+41313018828</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1236.5387141302165!2d7.442422787521884!3d46.96171846684488!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e3992661b12db%3A0x5dd2800342a5de94!2sStahlwerkstatt%20Bern%20GmbH%20(ehemals%20Schlosserei%20%2B%20Metallbau%20Daniel%20B%C3%A4umlin%20GmbH)!5e0!3m2!1suk!2sua!4v1718384447425!5m2!1suk!2sua"
+                                            class="w-100"
+                                            style="
+                                                height: 412px;
+                                                margin-bottom: -6px;
+                                            "
+                                            loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"
+                                        ></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark text-body py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">LichtBildSchweiz</h4>
+                            <p class="mb-4">
+                                Willkommen bei Ihrem professionellen Fotografen
+                                in der Schweiz. Mit einer Leidenschaft für
+                                Fotografie und einem Auge für Details bieten wir
+                                erstklassige Dienstleistungen in den Bereichen
+                                Hochzeitsfotografie, Porträtfotografie,
+                                Landschaftsfotografie und Eventfotografie.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Kontakt</h4>
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Engehaldenstrasse 128, 3012 Bern, Switzerland</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                +41313018828</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                licht_bild_schweiz@gmail.com</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Nützliche Links</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Startseite</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i> Über
+                                uns</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Datenschutz</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Begriffe</a
+                            >
+                            <a href="bussines-model.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Business-Modell</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">Our Gallery</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-1.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-1.jpg"
+                                                data-lightbox="footerGallery-1"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-2.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-2.jpg"
+                                                data-lightbox="footerGallery-2"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-3.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-3.jpg"
+                                                data-lightbox="footerGallery-3"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-4.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-4.jpg"
+                                                data-lightbox="footerGallery-4"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-5.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-5.jpg"
+                                                data-lightbox="footerGallery-5"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-6.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-6.jpg"
+                                                data-lightbox="footerGallery-6"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <p>
+                        Haftungsausschluss: Die Informationen auf dieser Website
+                        sind nicht als Rechtsberatung gedacht und begründen kein
+                        Mandatsverhältnis. Die hier zur Verfügung gestellten
+                        Informationen, Dokumente oder Formulare dienen nur
+                        allgemeinen Informationszwecken und sollten nicht als
+                        Rechtsberatung angesehen werden. Die Gesetze ändern sich
+                        regelmäßig; daher kann es sein, dass die Informationen
+                        auf dieser Website nicht korrekt sind. Es ist unbedingt
+                        erforderlich, dass Sie sich rechtlich beraten lassen, um
+                        Ihre Rechte und Pflichten nach geltendem Recht und unter
+                        Berücksichtigung Ihrer besonderen Umstände zu
+                        bestimmen.olorlib can't be removed.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    besseres und relevanteres Surferlebnis auf der Website zu
+                    ermöglichen.
+                    <a href="#">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Rückgang</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
+    </body>
+</html>
